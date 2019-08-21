@@ -1,0 +1,7 @@
+class Dog():
+    def __init__(self, breed):
+        self.breed = breed
+
+x = Dog("lab")
+
+print(type(x.breed))
